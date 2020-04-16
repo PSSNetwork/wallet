@@ -90,7 +90,7 @@ cd komodo
 
 To reset the Komodo blockchain change into the *~/.komodo* data directory and delete the corresponding files by running `rm -rf blocks chainstate debug.log komodostate db.log`
 
-#### Create .komodo/OSN/OSN.conf
+#### Create .komodo/PSS/PSS.conf
 
 Create a komodo.conf file:
 
