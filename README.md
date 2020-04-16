@@ -1,4 +1,5 @@
-PSS
+## PSS
+
 PSS is based on Komodo (Zcash fork). You should install Komodo with all dependencies and then run PSS blockchain and connect with the network.
 
 ## Getting started
