@@ -97,20 +97,21 @@ addnode=91.231.187.11
 ./komodod -ac_name=PSS -ac_supply=20000000 -ac_sapling=1 -ac_reward=12000000000 -ac_staked=50 -ac_halving=525600 -ac_decay=65000000 -ac_cbmaturity=6 -ac_adaptivepow=1 -ac_cc=102 -ac_blocktime=150 -ac_public=1 -addnode=91.231.187.19 &
 ```
 
-Wallet commands:
-# Get (transparent) wallet and blockchain info
+# Wallet commands:
+#### Get (transparent) wallet and blockchain info
 ./komodo-cli -ac_name=PSS getinfo
 
 
-# Get (transparent) wallet information
+#### Get (transparent) wallet information
 ./komodo-cli -ac_name=PSS getwalletinfo
-# Get mining information
+#### Get mining information
 ./komodo-cli -ac_name=PSS getmininginfo
-# Generate a new address
+#### Generate a new address
 ./komodo-cli -ac_name=PSS getnewaddress
 
-# Example:
-./komodo-cli -ac_name=PSS senfrom "" address
+#### Send an amount from account to address
+./komodo-cli -ac_name=PSS sendfrom "account" "address" amount
+
 
 **PSS and Komodo is based on Zcash which is unfinished and highly experimental.** Use at your own risk.
 
