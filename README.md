@@ -90,8 +90,8 @@ addnode=91.231.187.21
 addnode=91.231.187.11
 ```
 
-### Connect to PSS blockchain
-### Command to run PSS blockchain and connect with the network:
+#### Connect to PSS blockchain
+#### Command to run PSS blockchain and connect with the network:
 
 ```shell
 ./komodod -ac_name=PSS -ac_supply=20000000 -ac_sapling=1 -ac_reward=12000000000 -ac_staked=50 -ac_halving=525600 -ac_decay=65000000 -ac_cbmaturity=6 -ac_adaptivepow=1 -ac_cc=102 -ac_blocktime=150 -ac_public=1 -addnode=91.231.187.19 &
