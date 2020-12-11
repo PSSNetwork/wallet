@@ -1,6 +1,22 @@
+[![gitstars](https://img.shields.io/github/stars/PSSNetwork/wallet?style=social)](https://github.com/PSSNetwork/wallet/stargazers)
+[![discord](https://img.shields.io/discord/701937565929963581)](https://discord.gg/DYZHmgF)
+
 ## PSS
 
 PSS is based on Komodo (Zcash fork). You should install Komodo with all dependencies and then run PSS blockchain and connect with the network.
+
+## Resources
+
+- Website: [https://psscoin.online](https://psscoin.online)
+- Block Explorer: [https://explorer.psscoin.online](https://explorer.psscoin.online)
+- Discord: [PSS PROJECT](https://discord.gg/DYZHmgF)
+
+## Tech Specification
+- Max Supply: 5,898,454,281 PSS
+- Block Time: 30 seconds
+- Block Reward: 36 SPACE (currently)
+- Block Generation: 50% PoW | 50% PoS
+- Mining Algorithm: Equihash (200, 9)
 
 ## Getting started
 
@@ -82,19 +98,16 @@ rpcpassword=yoursecurerpcpassword
 rpcbind=127.0.0.1
 txindex=1
 addnode=91.231.187.24
-addnode=91.231.187.27
-addnode=91.231.187.16
-addnode=91.231.187.20
-addnode=91.231.187.19
-addnode=91.231.187.21
-addnode=91.231.187.11
+addnode=91.231.187.36
+addnode=91.231.187.15
+addnode=91.231.187.48
 ```
 
 #### Connect to PSS blockchain
 #### Command to run PSS blockchain and connect with the network:
 
 ```shell
-./komodod -ac_name=PSS -ac_supply=20000000 -ac_sapling=1 -ac_reward=12000000000 -ac_staked=50 -ac_halving=525600 -ac_decay=65000000 -ac_cbmaturity=6 -ac_adaptivepow=1 -ac_cc=102 -ac_blocktime=150 -ac_public=1 -addnode=91.231.187.19 &
+./komodod -ac_name=PSS -ac_supply=0 -ac_eras=6 -ac_reward=3600000000,2700000000,1800000000,900000000,600000000,300000000 -ac_end=939393,3757572,12212109,325343422,638474735,951606048 -ac_blocktime=30 -ac_staked=50 -ac_cbmaturity=1 -ac_cc=939 -ac_sapling=1 -addnode=91.231.187.36 -addnode=91.231.187.48 &
 ```
 
 # Wallet commands:
