@@ -14,7 +14,7 @@ PSS is based on Komodo (Zcash fork). You should install Komodo with all dependen
 ## Tech Specification
 - Max Supply: 5,898,454,281 PSS
 - Block Time: 30 seconds
-- Block Reward: 36 SPACE (currently)
+- Block Reward: 36 PSS (currently)
 - Block Generation: 50% PoW | 50% PoS
 - Mining Algorithm: Equihash (200, 9)
 
